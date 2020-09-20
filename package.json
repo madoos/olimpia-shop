@@ -1,0 +1,31 @@
+{
+  "name": "olimpia-shop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "crocks": "^0.12.4",
+    "next": "^9.5.3",
+    "ramda": "^0.27.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-redux": "^7.2.1",
+    "redux": "^4.0.5",
+    "redux-logger": "^3.0.6",
+    "redux-observable": "^1.2.0",
+    "rxjs": "^6.6.3"
+  },
+  "devDependencies": {
+    "@types/node": "^14.11.1",
+    "@types/react": "^16.9.49",
+    "typescript": "^4.0.3"
+  }
+}
