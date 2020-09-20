@@ -2,9 +2,9 @@
   "compilerOptions": {
     "baseUrl": "./",
     "paths": {
-      "@store/*": ["./store/*"],
-      "@components/*": ["./components/*"],
-      "@containers/*": ["./containers/*"]
+      "@store/*": ["store/*"],
+      "@components/*": ["components/*"],
+      "@containers/*": ["containers/*"]
     },
     "target": "es5",
     "lib": [
@@ -31,9 +31,5 @@
   ],
   "exclude": [
     "node_modules"
-  ],
-  "baseUrl": "./",
-  "paths": {
-    "@store/*": "store/*"
-  }
+  ]
 }

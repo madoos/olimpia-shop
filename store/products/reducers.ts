@@ -1,5 +1,5 @@
-import { Product, ProductAction } from '@store/products/interfaces'
-import { FETCHING_PRODUCTS ,FETCH_PRODUCTS_SUCCESS, FETCH_PRODUCTS_FAILURE } from '@store/products/types'
+import { Product, ProductAction } from './interfaces'
+import { FETCHING_PRODUCTS ,FETCH_PRODUCTS_SUCCESS, FETCH_PRODUCTS_FAILURE } from './types'
 
 export const products = (productsState: Product[], action: ProductAction): Product[] => {
     switch(action.type) {

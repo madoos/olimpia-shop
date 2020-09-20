@@ -3,9 +3,9 @@ import {
     FetchingProductsAction,
     FetchProductsSuccessAction,
     FetchProductsFailureAction 
- } from '@store/products/interfaces'
+ } from './interfaces'
 
-import { FETCHING_PRODUCTS, FETCH_PRODUCTS_SUCCESS, FETCH_PRODUCTS_FAILURE } from '@store/products/types'
+import { FETCHING_PRODUCTS, FETCH_PRODUCTS_SUCCESS, FETCH_PRODUCTS_FAILURE } from './types'
 
 export const fetchingProductsAction = () : FetchingProductsAction => ({
     type: FETCHING_PRODUCTS,

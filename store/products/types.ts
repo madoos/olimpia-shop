@@ -1,4 +1,4 @@
-import { ProductsActionType } from '@store/products/interfaces'
+import { ProductsActionType } from './interfaces'
 
 export const FETCHING_PRODUCTS: ProductsActionType = 'FETCHING_PRODUCTS'
 export const FETCH_PRODUCTS_SUCCESS: ProductsActionType = 'FETCH_PRODUCTS_SUCCESS'
