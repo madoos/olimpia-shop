@@ -1,5 +1,5 @@
 import { combineEpics } from 'redux-observable'
-import { fetchProducts } from '@store/products/epics'
+import { fetchProducts } from './products/epics'
 
 const epic = combineEpics(fetchProducts)
 

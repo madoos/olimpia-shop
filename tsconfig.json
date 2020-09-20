@@ -2,9 +2,10 @@
   "compilerOptions": {
     "baseUrl": "./",
     "paths": {
-      "@store/*": ["store/*"],
-      "@components/*": ["components/*"],
-      "@containers/*": ["containers/*"]
+      "@store/*": ["src/store/*"],
+      "@components/*": ["src/components/*"],
+      "@containers/*": ["src/containers/*"],
+      "@theme/*": ["src/theme/*"]
     },
     "target": "es5",
     "lib": [

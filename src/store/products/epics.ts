@@ -4,11 +4,11 @@ import { fakeProducts } from './util'
 
 import { map, delay } from 'rxjs/operators'
 import { ofType } from 'redux-observable'
-import { pipe, always } from 'ramda'
+import { pipe } from 'ramda'
 
 export const fetchProducts = pipe(
     ofType(FETCHING_PRODUCTS),
     delay(3000),
-    map(always(fakeProducts(10))),
+    map(() => fakeProducts(10)),
     map(fetchProductsSuccessAction)
 )

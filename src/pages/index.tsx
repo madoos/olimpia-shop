@@ -1,14 +1,13 @@
-import Navbar from '@components/Navbar'
-import ProductList from '@containers/ProductList'
+import Navbar from 'src/components/Navbar'
+import ProductPreviewList from 'src/containers/ProductList'
 
 import { useDispatch, useSelector } from 'react-redux'
-import { fetchingProductsAction } from '@store/products/actions'
+import { fetchingProductsAction } from 'src/store/products/actions'
 
 const Home = () => {
     const dispatch = useDispatch()
     const isLogin = useSelector(state => state.productsLoading)
-    debugger
-    
+        
     return (
         <div>
             <Navbar />
@@ -19,7 +18,7 @@ const Home = () => {
             </button>
             {isLogin ? '...loading' : 'cargados'}
             <h1>Products</h1>
-            <ProductList />
+            <ProductPreviewList />
         </div>
     );
 }

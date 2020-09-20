@@ -4,8 +4,8 @@ import { createEpicMiddleware } from 'redux-observable';
 import { createLogger } from 'redux-logger'
 import { merge, isNil } from 'ramda'
 
-import epic from '@store/epic'
-import reducer from '@store/reducer'
+import epic from './epic'
+import reducer from './reducer'
 
 let store
 
