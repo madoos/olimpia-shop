@@ -5,7 +5,8 @@
       "@store/*": ["src/store/*"],
       "@components/*": ["src/components/*"],
       "@containers/*": ["src/containers/*"],
-      "@theme/*": ["src/theme/*"]
+      "@theme/*": ["src/theme/*"],
+      "@services/*": ["src/services/*"]
     },
     "target": "es5",
     "lib": [
